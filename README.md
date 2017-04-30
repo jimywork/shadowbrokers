@@ -17,7 +17,7 @@ Siga as etapas de instalação para o Python primeiro e depois para o PyWin32. C
 
 ## Configurando o Fuzzbunch
 
-O próximo passo é baixar o dump Shadow Brokers e descompactá-lo para a área de trabalho.Quando você baixou o dump do Github você tem que criar uma nova pasta chamada 'listeningspost' no diretório do Windows que contém o arquivo fb.py (Fuzzbunch).
+O próximo passo é baixar o arquivo Shadow Brokers e descompactá-lo para a área de trabalho. Quando você baixou o arquivo do Github você tem que criar uma nova pasta chamada 'listeningspost' no diretório do Windows que contém o arquivo fb.py (Fuzzbunch).
 <pre>
 <code>fbctf@fbctf:~$ git clone https://github.com/fbctf/shadowbrokers.git</code>
 </pre>
@@ -55,6 +55,9 @@ Finalmente, edite o arquivo de configuração Fuzzbunch denominado fuzzbunch.xml
 </code>
 
 Altere os parâmetros de localização do log e dos recursos do Fuzzbunch.
+Agora execute o debbuger
+<code>
+</code>
 
 Agora podemos iniciar o Fuzzbunch executando o arquivo fb.py a partir da linha de comando e ele deve ser executado sem erros:
 <pre>
